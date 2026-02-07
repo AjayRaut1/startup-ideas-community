@@ -3,14 +3,14 @@
 export default function EmailForm() {
   return (
     <form
+      action="https://tally.so/r/abcd12"
+      method="POST"
+      target="_blank"
       className="mt-8 flex w-full max-w-md gap-2"
-      onSubmit={(e) => {
-        e.preventDefault();
-        alert("Thanks for joining the waitlist!");
-      }}
     >
       <input
         type="email"
+        name="email"
         required
         placeholder="you@startup.com"
         className="flex-1 rounded-md border border-gray-300 px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-black"
