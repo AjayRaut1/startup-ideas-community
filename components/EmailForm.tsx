@@ -3,7 +3,7 @@
 export default function EmailForm() {
   return (
     <form
-      action="https://tally.so/r/abcd12"
+      action="https://tally.so/r/7R2R46"
       method="POST"
       target="_blank"
       className="mt-8 flex w-full max-w-md gap-2"
